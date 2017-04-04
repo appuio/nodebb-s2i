@@ -50,4 +50,8 @@ fi
 #
 [ "$1" == "--debug" ] && exec /bin/bash
 
+# Build runtime assets for NodeBB
+./nodebb build
+
+# Run the application
 run_node
