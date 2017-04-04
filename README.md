@@ -2,7 +2,7 @@
 
 This repository contains the S2I scripts for building and running
 [NodeBB](https://github.com/NodeBB/NodeBB) on OpenShift. It basically is a
-NodeJS application which builds perfectly whith the official
+NodeJS application which builds perfectly with the official
 [NodeJS S2I builder](https://github.com/NodeBB/NodeBB). The only thing
 modified in the scripts in this repo is the call of `./nodebb build` before
 starting NodeBB in the `run` script.
