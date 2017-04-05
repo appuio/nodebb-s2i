@@ -49,7 +49,7 @@ fi
 
 echo "---> Building your Node application from source"
 npm install
-npm install nodebb-plugin-emailer-smtp-complete
+npm install git://github.com/jskorepa/nodebb-plugin-emailer-smtp.git#jskorepa-patch-secure
 
 # Fix source directory permissions
 fix-permissions ./
